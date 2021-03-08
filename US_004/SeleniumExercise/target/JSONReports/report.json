@@ -1,0 +1,318 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is on register form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9892000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the browser on the page",
+            "match": {
+              "location": "StepsScript.Fields.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T20:05:04.671Z",
+        "line": 7,
+        "name": "Check if a new register created succesfull",
+        "description": "",
+        "id": "validate-new-resgister-form;check-if-a-new-register-created-succesfull",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5936000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters all fields correcly",
+            "match": {
+              "location": "StepsScript.NewRegisterS.user_enters_all_fields_correcly()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6789000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepsScript.NewRegisterS.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_004"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is on register form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9084000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the browser on the page",
+            "match": {
+              "location": "StepsScript.Fields.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T20:05:27.478Z",
+        "line": 48,
+        "name": "Error when email is an invalid format",
+        "description": "",
+        "id": "validate-new-resgister-form;error-when-email-is-an-invalid-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5934000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enters all fields correcly email is an invalid format",
+            "match": {
+              "location": "StepsScript.EmailInvalidFormat.user_enters_all_fields_correcly_country_must_be_null()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6880000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepsScript.NewRegisterS.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_004"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is on register form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8185000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the browser on the page",
+            "match": {
+              "location": "StepsScript.Fields.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T20:05:49.385Z",
+        "line": 76,
+        "name": "Error when password contains invalid format",
+        "description": "",
+        "id": "validate-new-resgister-form;error-when-password-contains-invalid-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5879000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user enters all fields correcly password contains invalid format",
+            "match": {
+              "location": "StepsScript.ErrorPasswordInvalid.user_enters_all_fields_correcly_execpt_email_must_be_null()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6863000000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepsScript.NewRegisterS.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_004"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is on register form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9625000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the browser on the page",
+            "match": {
+              "location": "StepsScript.Fields.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T20:06:10.323Z",
+        "line": 81,
+        "name": "Error when confirm password doesn�t match with password",
+        "description": "",
+        "id": "validate-new-resgister-form;error-when-confirm-password-doesn�t-match-with-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5821000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Error when confirm password not match with password",
+            "match": {
+              "location": "StepsScript.ConfirmPasswordNotMatch.user_enters_all_fields_correcly_execpt_email_must_be_null()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6812000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepsScript.NewRegisterS.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_004"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is on register form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8529000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the browser on the page",
+            "match": {
+              "location": "StepsScript.Fields.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T20:06:32.594Z",
+        "line": 86,
+        "name": "Check if not obligatory fields are abligattory",
+        "description": "",
+        "id": "validate-new-resgister-form;check-if-not-obligatory-fields-are-abligattory",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5629000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Check if not obligatory fields are abligatories fields",
+            "match": {
+              "location": "StepsScript.CheckNotObligatoryF.user_enters_all_fields_correcly_execpt_email_must_be_null()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6789000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "StepsScript.NewRegisterS.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_004"
+          }
+        ]
+      }
+    ],
+    "name": "Validate New resgister form",
+    "description": "",
+    "id": "validate-new-resgister-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/FormTest.feature",
+    "tags": []
+  }
+]
