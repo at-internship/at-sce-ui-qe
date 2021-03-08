@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="20" time="475.541025">
+<testcase classname="Test website" name="fill all the fields of the form in a valid format" time="26.315736">
+<system-out><![CDATA[Given The user should open the webpage Automation Demo Site.................passed
+When the user enters the web page, they must fill in the requested data.....passed
+Then Once finished, the submit button will be clicked to send the data and the browser will be closed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="only with the required fields" time="18.812811">
+<system-out><![CDATA[When the user enters the web page they must fill only with the required fields.passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="The data is invalid" time="22.701367">
+<system-out><![CDATA[When Error message when the data is invalid format..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="last name is invalid format" time="22.237813">
+<system-out><![CDATA[When Error message when the last name is invalid format.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="the first name is invalid format" time="25.24271">
+<system-out><![CDATA[When Error message when the first name is invalid format....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Email invalid format" time="23.601454">
+<system-out><![CDATA[When Error message when the email invalid format............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Gender is not selected" time="23.985385">
+<system-out><![CDATA[When Error message when the gender is not selected..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Date birth is not selected" time="23.367843">
+<system-out><![CDATA[When Error message when the date birth is not selected......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="password is invalid with 3 categories (UpperCase,lowerCase alphabet and a number)" time="25.090934">
+<system-out><![CDATA[When Error message when the password is invalid with 3 categories...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="password is less than 6 characters" time="23.40081">
+<system-out><![CDATA[When Error message when password is less than 6 characters..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="confirm password is invalid" time="25.794466">
+<system-out><![CDATA[When Error Message when confirm password is invalid.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="phone doesn't contain numbers" time="23.945739">
+<system-out><![CDATA[When Error Message when phone doesnt contain numbers........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Country is not selected" time="22.88866">
+<system-out><![CDATA[When Error Message when country is not selected.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Phone contains more than 10 numbers" time="24.324788">
+<system-out><![CDATA[When Error Message when phone contains more than 10 numbers.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Phone contains less than 10 numbers" time="23.804988">
+<system-out><![CDATA[When Error Message when phone contains less than 10 numbers.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="The address is invalid format" time="23.68554">
+<system-out><![CDATA[When The address is invalid format..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Don't select any Hobbies options" time="23.122588">
+<system-out><![CDATA[When Dont select any Hobbies options........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Several options are repeated" time="26.626372">
+<system-out><![CDATA[When You select the hobbies option and several options are repeated.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="Languages is not selected" time="22.866077">
+<system-out><![CDATA[When Languages is not selected..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test website" name="The skills is not selected" time="23.724944">
+<system-out><![CDATA[When The skills is not selected.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
