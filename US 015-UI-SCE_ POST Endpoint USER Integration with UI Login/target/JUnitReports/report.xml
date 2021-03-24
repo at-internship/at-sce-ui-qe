@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="43.598438">
+<testcase classname="Website to test different types of Scenarios" name="Valid email and valid password is entered" time="13.134425">
+<system-out><![CDATA[When the user enters the web page AT Software Cost Estimation, they must fill in the requested data.passed
+]]></system-out>
+</testcase>
+<testcase classname="Website to test different types of Scenarios" name="Invalid email and valid password is entered" time="9.288853">
+<system-out><![CDATA[When Error message when the email invalid format............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Website to test different types of Scenarios" name="Valid email and invalid password is entered" time="10.556921">
+<system-out><![CDATA[When Error message when the password invalid format.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Website to test different types of Scenarios" name="The user to logout when click in the logout button." time="10.618239">
+<system-out><![CDATA[When the user log in successfully in the web page AT Software Cost Estimation.passed
+Then the user wants to exit the page by clicking on the logout button.......passed
+]]></system-out>
+</testcase>
+</testsuite>
