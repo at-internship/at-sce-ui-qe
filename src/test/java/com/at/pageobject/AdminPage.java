@@ -77,7 +77,6 @@ public class AdminPage {
     }
 
     public void types(String user_type) throws Throwable {
-        Thread.sleep(500);
 
          typeList.sendKeys(user_type);
 
