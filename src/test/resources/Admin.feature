@@ -14,4 +14,4 @@ Scenario: get all users
   Then should be logged into application
   And user goes to "AdminView" page 
   And click on Users button
-  And show all users
+  And show all users "25"

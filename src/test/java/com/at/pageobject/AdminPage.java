@@ -29,9 +29,9 @@ public class AdminPage {
 		 JavascriptExecutor js = ((JavascriptExecutor) webDriver);
 	     js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	    }
-	 public void setShowNumber() {
+	 public void setShowNumber(String s) {
 		 Select selC = new Select(usersTable);
-		 selC.selectByValue("50");
+		 selC.selectByValue(s);
 	 }
 	 
 }

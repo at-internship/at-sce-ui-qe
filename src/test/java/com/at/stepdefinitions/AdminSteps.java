@@ -14,11 +14,11 @@ public class AdminSteps extends DriverFactory {
 		new AdminPage(driver).clickOnUserButton();
 		
 	}
-	@And("show all users")
-	public void show_all_users() throws Throwable {
+	@And("show all users {string}")
+	public void show_all_users(String s) throws Throwable {
 
 		Thread.sleep(5000);
-		new AdminPage(driver).setShowNumber();
+		new AdminPage(driver).setShowNumber(s);
 		Thread.sleep(5000);
 		new AdminPage(driver).scrollDown();
 		Thread.sleep(5000);
