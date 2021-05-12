@@ -8,8 +8,8 @@ Feature:
 
 @1
 Scenario: Sign in using valid credentials
-  Given I have a user with "example@email.com" email
-  And password as "examplePassword"
+  Given I have a user with "adminghj@agilethought.com" email
+  And password as "4Gil3tgdh0ught"
   When user choose to sign in
   Then should be logged into application
 

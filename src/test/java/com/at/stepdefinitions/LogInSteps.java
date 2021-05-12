@@ -4,12 +4,26 @@ import com.at.enums.Resources;
 import com.at.factories.DriverFactory;
 import com.at.pageobject.LogInPage;
 import com.at.pageobject.MainPage;
+import com.at.utils.PropertyReader;
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+import static org.junit.Assert.assertEquals;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+import io.cucumber.java.Scenario;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LogInSteps extends DriverFactory {
 
@@ -18,12 +32,26 @@ public class LogInSteps extends DriverFactory {
         driver = new DriverFactory().getDriver();
     }
     @After
-    public void afterScenario(){
+    public void afterScenario(Scenario scenario){
+    	String screen = new PropertyReader().readProperty("screenShot");
+    	
+    	if(screen.equals("yes")) {
+    		if (scenario.isFailed()) {
+                TakesScreenshot ts = (TakesScreenshot) driver;
+                byte[] src = ts.getScreenshotAs(OutputType.BYTES);  
+                scenario.attach(src, "image/png", "screenshot");
+                System.out.println("ScrrenShoot"+screen);
+    		}
+    	}
+    	 
+   
         new DriverFactory().destroyDriver();
     }
+    
 
     @Given("user goes to {string} page")
     public void user_goes_to_log_in_page(String view) throws Exception {
+    	
         boolean validView = false;
         for(Resources r:Resources.values()){
             if(r.toString().equals(view)){
@@ -34,8 +62,12 @@ public class LogInSteps extends DriverFactory {
         if(!validView){
             throw new IllegalArgumentException("Provide view in step does not exist");
         }
+        
 
-        driver.manage().window().maximize();
+
+        	
+        	
+        	
     }
 
     @Given("I have a user with {string} email")
